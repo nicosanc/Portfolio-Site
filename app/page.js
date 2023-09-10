@@ -38,7 +38,7 @@ export default function Home() {
                         but I am also open to software engineering opportunities. 
                     </p>
                     <p className='text-center mx-32 text-lg mt-5'>
-                    My focus for this next stage in my life &#40;my first years as a professional&#41; is to absorb as much information as I can. I am currently reading through the textbook Deep Learning by
+                    My professional focus is to absorb as much information as I can. I am currently reading through the textbook Deep Learning by
                         Ian Goodfellow to resharpen my understanding of linear algebra and probability, and their applications in Neural Networks. The other book 
                         I am reading is Machine Learning Engineering by Andriy Burkov, which gives a breakdown of the project cycle from data preparation up until 
                         model deployment and maintenance. 
@@ -59,28 +59,29 @@ export default function Home() {
                     the project directory. I plan on expanding my github with more personal mini projects
                     </p>
 
-                <a href="https://github.com/nicosanc/Portfolio-Site.git" className=' flex justify-center text-xl text-blue-500 mt-10' > Click Me - Github Repository </a>
+                <a href="https://github.com/nicosanc/Portfolio-Site.git" className='justify-center'> Click Me - Github Repository </a>
 
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'>A Bit About Who I Am </h1>
                     <p className='text-center mt-10 mx-32 text-lg'>
                         I come from a Colombian family. My parents left Colombia 23 years ago and 
-                        started a new life in Miami, Florida where I was born and raised. I was fortunate enough to grow up in a highly diverse city with friends from all over the world. This was partly thanks to the Elementary and
-                        Middle schools I attended, which were international magnet programs focused on advanced language learning. I studied French for 8 years in a heavily diverse environment of European, South American, and Caribbean students. <br></br>
-                        Outside of academics, I played and still play soccer and tennis on a regular basis. I am an extremely outdoors oriented person so I enjoy runs, hikes, and ocean related activities. I am very sociable person and I pride myself in my communication skills. I believe it
-                        originates from exposure to very different people at a young age. <br></br> I love collaborative team projects where I can wear multiple hats to tackle different challenges. I value hard work and discipline. I am a strong believer that doing difficult things every day is what keeps us
+                        started a new life in Miami, Florida where I was born and raised. I attended international magnet schools where I studied French from 1 to 8th grade, surrounded by students from all over the world. <br></br>
+                        I played, and still play, soccer and tennis on a regular basis. I enjoy runs, hikes, and ocean related activities. I am a very sociable person and I pride myself in my communication skills. I believe it
+                        originates from my exposure to very different people at a young age. <br></br> I love collaborative team projects where I can wear multiple hats to tackle different challenges. I value hard work and discipline. I am a strong believer that doing difficult things every day is what keeps us
                         grounded and feeling alive. I am looking to challenge myself professionally. 
                     </p>
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'> Where To Reach Me</h1>
-                <ul  className='flex justify-center mx-auto text-blue-500'>
-                    <li className=' text-center'>
+                <ul  className='flex justify-center mx-auto text-blue-500 '>
+
+                    <li className=' text-center bg-blue-700 text-white rounded  py-2 px-3'>
                         <a href='https://www.linkedin.com/in/nicolas-sanchez-noguera-0792621a5/'>LinkedIn Profile</a>
                     </li>
-                    <li className=' text-center ml-10'>
-                        <a href='mailto:nicosanchez0411@gmail.com'>Personal Email</a>
+                    <li className=' text-center ml-10 bg-blue-700 text-white rounded  py-2 px-3'>
+                        <a href='mailto:nicosanchez0411@gmail.com'>nicosanchez0411@gmail.com</a>
                     </li>
-                    <li className=' text-center ml-10'>
-                        <a href='tel:786-683-9388'>Personal Cell</a>
+                    <li className=' text-center ml-10 bg-blue-700 text-white rounded py-2 px-3'>
+                        <a href='tel:786-683-9388'>786-683-9388</a>
                     </li>
+
                 </ul>
                 </div>
                 <div>
