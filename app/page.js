@@ -13,7 +13,7 @@ export default function Home() {
       <div  className='bg-blue-200 h-full'>
         <Head>
             <title>
-                Nico's Portfolio
+                Nico Portfolio
             </title>
             <meta property = "My title" content='A title that says nicos portfolio' key = 'title'/>
             <link rel='icon' href='/favicon.ico' />
@@ -43,7 +43,7 @@ export default function Home() {
                         I am reading is Machine Learning Engineering by Andriy Burkov, which gives a breakdown of the project cycle from data preparation up until 
                         model deployment and maintenance. 
                         <br></br>
-                        As for building experience in developing software systems, I decided to build this portfolio site using Next.JS. I've also began studying for the AWS Associate Developer Certification. This will allow me to hone relevant 
+                        As for building experience in developing software systems, I decided to build this portfolio site using Next.JS. I&apos;ve also began studying for the AWS Associate Developer Certification. This will allow me to hone relevant 
                         industry skills in cloud development, as well as proper CI/CD and version control etiquette.
                     </p>
 
@@ -52,7 +52,7 @@ export default function Home() {
                     To showcase my understanding of a popular Deep Learning framework and the Deep Learning Basics,
                     I decided on building a Convolutional Neural Network to classify images, using PyTorch. I trained and tested the model 
                     on the CIFAR10 dataset offered by torchvision.datasets. The model was trained several times with different 
-                    data augmentations to try and improve the model's robustness. It was tested against unshuffled, un-augmented validation and test 
+                    data augmentations to try and improve the model&apos;s generalization. It was tested against unshuffled, un-augmented validation and test 
                     sets. The code and plots are included in the notebook file present on in the link below. 
                     A python file and requirements text file are also included in the
                     the project directory. I plan on expanding my github with more personal mini projects
