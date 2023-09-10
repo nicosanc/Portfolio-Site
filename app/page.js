@@ -59,15 +59,17 @@ export default function Home() {
                     the project directory. I plan on expanding my github with more personal mini projects
                     </p>
 
-                <a href="https://github.com/nicosanc/Portfolio-Site.git" className='justify-center flex bg-blue-700 text-white rounded py-2 px-3' > Click Me - Github Repository </a>
-
+                <div className='flex justify-center'>
+                
+                <a href="https://github.com/nicosanc/Portfolio-Site.git" className='bg-blue-700 text-white rounded py-2 px-3 mt-10' > Click Me - Github Repository </a>
+                </div>
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'>A Bit About Who I Am </h1>
                     <p className='text-center mt-10 mx-32 text-lg'>
                         I come from a Colombian family. My parents left Colombia 23 years ago and 
-                        started a new life in Miami, Florida where I was born and raised. I attended international magnet schools where I studied French from 1 to 8th grade, surrounded by students from all over the world. <br></br>
-                        I played, and still play, soccer and tennis on a regular basis. I enjoy runs, hikes, and ocean related activities. I am a very sociable person and I pride myself in my communication skills. I believe it
+                        started a new life in Miami, Florida where I was born and raised. I attended international magnet schools where I studied French from 1st to 8th grade, surrounded by students from all over the world. <br></br>
+                        I played, and still play, soccer and tennis on a regular basis. I enjoy runs, hikes, and ocean related activities. I am a sociable person and I pride myself in my communication skills. I believe it
                         originates from my exposure to very different people at a young age. <br></br> I love collaborative team projects where I can wear multiple hats to tackle different challenges. I value hard work and discipline. I am a strong believer that doing difficult things every day is what keeps us
-                        grounded and feeling alive. I am looking to challenge myself professionally. 
+                        grounded and feeling alive. 
                     </p>
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'> Where To Reach Me</h1>
                 <ul  className='flex justify-center mx-auto text-blue-500 '>
