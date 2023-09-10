@@ -44,7 +44,8 @@ export default function Home() {
                         model deployment and maintenance. 
                         <br></br>
                         As for building experience in developing software systems, I decided to build this portfolio site using Next.JS. I&apos;ve also began studying for the AWS Associate Developer Certification. This will allow me to hone relevant 
-                        industry skills in cloud development, as well as proper CI/CD and version control etiquette.
+                        Cloud Development skills that can be applied to work in Applied MLE and SWE 
+                    
                     </p>
 
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'> Personal Project </h1>
