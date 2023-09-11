@@ -69,7 +69,7 @@ export default function Home() {
                         started a new life in Miami, Florida where I was born and raised. I attended international magnet schools where I studied French from 1st to 8th grade, surrounded by students from all over the world. <br></br>
                         I played, and still play, soccer and tennis on a regular basis. I enjoy runs, hikes, and ocean related activities. I am a sociable person and I pride myself in my communication skills. I believe it
                         originates from my exposure to very different people at a young age. <br></br> I love collaborative team projects where I can learn from other engineers with different expertises. I value hard work and discipline. I am a strong believer that doing difficult things every day is what keeps us
-                        grounded and feeling alive. Most importantly, I believe in keeping an open mind to the things in life we don't understand. This helps with connecting with others, and connecting with myself. It's especially helpful for learning new technically challenging topics. 
+                        grounded and feeling alive. Most importantly, I believe in keeping an open mind to the things in life we don&apos;t understand. This helps with connecting with others, and connecting with myself. It&apos;s especially helpful for learning new technically challenging topics. 
                     </p>
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'> Where To Reach Me</h1>
                 <ul  className='flex justify-center mx-auto text-blue-500 '>
