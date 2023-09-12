@@ -61,7 +61,7 @@ export default function Home() {
 
                 <div className='flex justify-center'>
                 
-                <a href="https://github.com/nicosanc/Portfolio-Site.git" className='bg-blue-700 text-white rounded py-2 px-3 mt-10' > Click Me - Github Repository </a>
+                <a href="https://github.com/nicosanc/PyTorch-Img-Classifier.git" className='bg-blue-700 text-white rounded py-2 px-3 mt-10' > Click Me - Github Repository </a>
                 </div>
                 <h1 className='mt-20 mb-10 mx-auto text-4xl text-indigo-700 text-center font-medium'>A Bit About Who I Am </h1>
                     <p className='text-center mt-10 mx-32 text-lg'>
