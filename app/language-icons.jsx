@@ -7,44 +7,52 @@ import {SiJupyter, SiVmware, SiWireshark} from 'react-icons/si'
 
 const LanguagesIcons = () => {
     return(
-        <><div className='text-center pt-24'>
-            <h3 className='font-medium text-3xl text-indigo-700'>
+        <>
+        <ul className="flex justify-between">
+            <li  className="flex flex-col justify-center items-start w-1/2">
+            <h3 className='font-segoe-medium text-4xl text-blue-800  mx-auto mt-20'>
                 Languages
             </h3>
-        </div>
-        <div className='pt-10 flex justify-between'>
-            <ul className='flex justify-between mx-auto'>
-                <li className=' text-center'>
-                    <VscTerminalBash className='text-4xl' />
-                </li>
-                <li className=' text-center ml-10'>
-                    <TbBrandCpp className='text-4xl' />
-                </li>
-                <li className=' text-center ml-10'>
-                    <TbBrandCSharp className='text-4xl' />
-                </li>
-                <li className=' text-center ml-10'>
-                    <IoLogoJavascript className='text-4xl' />
-                </li>
-                <li className=' text-center ml-10'>
-                    <FaPython className='text-4xl' />
-                </li>
-                <li className=' text-center ml-10'>
-                    <FaRProject className='text-4xl' />
-                </li>
-                <li className=' text-center ml-10'>
-                    <TbSql className='text-4xl' />
-                </li>
-            </ul>
-        </div>
-        <div className='text-center pt-24'>
-            <h3 className='font-medium text-3xl text-indigo-700'>
-                Technologies + Platforms
-            </h3>
-        </div>
-        <div className='py-10 flex justify-between ' >
+
+            </li>
+            <li className="flex flex-col justify-center w-1/2 items-end mt-20">
                 <ul className='flex justify-between mx-auto'>
                     <li className=' text-center'>
+                        <VscTerminalBash className='text-4xl' />
+                    </li>
+                    <li className=' text-center ml-10'>
+                        <TbBrandCpp className='text-4xl' />
+                    </li>
+                    <li className=' text-center ml-10'>
+                        <TbBrandCSharp className='text-4xl' />
+                    </li>
+                    <li className=' text-center ml-10'>
+                        <IoLogoJavascript className='text-4xl' />
+                    </li>
+                    <li className=' text-center ml-10'>
+                        <FaPython className='text-4xl' />
+                    </li>
+                    <li className=' text-center ml-10'>
+                        <FaRProject className='text-4xl' />
+                    </li>
+                    <li className=' text-center ml-10'>
+                        <TbSql className='text-4xl' />
+                    </li>
+                </ul>
+            </li>
+        
+        </ul>
+        
+        <ul className="flex justify-between">
+            <li  className="flex flex-col justify-center items-start w-1/2">
+            <h3 className='font-segoe-medium text-4xl text-blue-800  mx-auto mt-20'>
+                Technologies + Platforms
+            </h3>
+
+            </li>
+            <li className="flex flex-col justify-center w-1/2 items-end mt-20">
+                <ul className='flex justify-between mx-auto'>
+                 <li className=' text-center'>
                         <FaAws className='text-4xl' />
                     </li>
                     <li className=' text-center ml-10'>
@@ -66,8 +74,10 @@ const LanguagesIcons = () => {
                         <SiWireshark className='text-4xl' />
                     </li>
                 </ul>
-            </div>           
-            </>
+            </li>
+        
+        </ul>        
+        </>
     )
 }
 
