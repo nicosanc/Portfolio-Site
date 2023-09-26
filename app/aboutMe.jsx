@@ -14,7 +14,7 @@ const AboutMe = () => {
                        
                     </p>
                     <p className= 'text-center text-indigo-700 text-xl font-segoe mt-5'>
-                        I&apos;ve grown up playing soccer and tennis. I love the outdoors so I&apos;m a major fan of runs, hikes, and ocean related activities. I am a sociable person and I pride myself in my communication skills. I believe it
+                        I&apos;ve grown up playing soccer and tennis. I love the outdoors so I&apos;m a big fan of runs, bikes rides, and ocean related activities. I am a sociable person and I pride myself in my communication skills. I believe it
                         originates from my exposure to very different people at a young age. 
                     </p>
                     <p className= 'text-center text-indigo-700 text-xl font-segoe mt-5'>
