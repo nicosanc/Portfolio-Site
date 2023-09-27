@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <p className= 'text-center text-indigo-700 text-xl font-segoe mt-5'>
                         I like to lead a very active lifestyle. This means regularly participating in sports like soccer or tennis, and spending plenty of time outside going on runs or bike rides. When I&apos;m home in Miami, I make sure to spend plenty of time near the ocean. When I was in Michigan, even on the coldest days,
                         I still embraced the outdoors and would go on daily walks to keep my mind fresh. This commitment came from reading about the Norweigan word friluftsliv. Living this kind of lifestyle has instilled a sense of commitment to my life. In the simplest terms, being fully committed to all aspects of my 
-                        lifestyle helped me fortify an identity of the self, especially a self identity of being disciplined. 
+                        lifestyle helped me fortify a self identity, especially a self identity of being disciplined. 
                     </p>
                     <p className= 'text-center text-indigo-700 text-xl font-segoe mt-5'>
                     This translated into my professional life, which is why I have committed myself to deeply learn the topics relevant to the career I want to pursue. Cal Newton, an author and Computer Science professor at
