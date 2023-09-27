@@ -14,7 +14,7 @@ import AboutMe from './aboutMe';
 export default function Home() {
   return (
     
-      <div  className='bg-gradient-to-r from-blue-300 to-amber-100 h-full'>
+      <div  className='bg-gradient-radial from-blue-300 to-amber-100 h-full'>
         <Head>
             <title>
                 Nico Portfolio

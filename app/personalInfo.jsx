@@ -16,7 +16,7 @@ const PersonalInfo = () => {
                         </h4>
                             <Image src= {profilePic} alt='my Linked in profile pic' width = '300' height="300" className='rounded-full mx-auto mb-10'/>
             </li >
-            <li className="flex flex-col justify-center w-1/2 p-8 items-end font-segoe">
+            <li className="flex flex-col justify-center w-1/2 p-8 items-end font-segoe-medium">
             <p className='text-indigo-700 text-xl text-center'>
                         I am a recent graduate from the University of Michigan, where I majored in Data Science Engineering 
                         and minored in Mathematics. My development experience includes Web Systems, Robotics, Machine Learning, 

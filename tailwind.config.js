@@ -15,6 +15,9 @@ module.exports = {
       fontFamily:{
         segoe: ["Segoe UI", "sans"]
       },
+      fontWeight:{
+        thick: "500"
+      }
     },
   },
   plugins: [],
