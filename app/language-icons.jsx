@@ -9,7 +9,7 @@ const LanguagesIcons = () => {
     return(
         <>
         <ul className="flex justify-between">
-            <li  className="flex flex-col w-1/2 items-end pr-20">
+            <li  className="flex flex-col w-1/2 items-end pr-32">
             <h3 className='font-segoe text-4xl text-slate-800 mt-20'>
                 Languages
             </h3>
@@ -35,7 +35,7 @@ const LanguagesIcons = () => {
                     <li className=' text-center ml-10'>
                         <FaRProject className='text-4xl' />
                     </li>
-                    <li className=' text-center ml-10'>
+                    <li className=' text-center ml-10 mr-24'>
                         <TbSql className='text-4xl' />
                     </li>
                 </ul>
@@ -44,7 +44,7 @@ const LanguagesIcons = () => {
         </ul>
         
         <ul className="flex justify-between">
-            <li  className="flex flex-col items-end w-1/2 pr-20">
+            <li  className="flex flex-col items-end w-1/2 pr-32">
             <h3 className='font-segoe text-4xl text-slate-800 mt-20'>
                 Technologies + Platforms
             </h3>
@@ -70,7 +70,7 @@ const LanguagesIcons = () => {
                     <li className=' text-center ml-10'>
                         <TbBrandVscode className='text-4xl' />
                     </li>
-                    <li className=' text-center ml-10'>
+                    <li className=' text-center ml-10 mr-24'>
                         <SiWireshark className='text-4xl' />
                     </li>
                 </ul>

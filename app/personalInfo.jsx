@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import profilePic from '../images/profPic.jpg'
+import { ResumeDownload } from "./buttons";
 
 const PersonalInfo = () => {
     return(
@@ -11,24 +12,24 @@ const PersonalInfo = () => {
                             Nicolas Sanchez Noguera
                         </p>
 
-                        <p className=' pb-10 text-2xl text-slate-600 text-center font-segoe-medium mx-auto'>
+                        <p className=' pb-10 text-2xl text-slate-600 text-center font-segoe mx-auto'>
                             Data Scientist and Software Developer
                         </p>
                             <Image src= {profilePic} alt='my Linked in profile pic' width = '300' height="300" className='rounded-full mx-auto '/>
             </li >
-            <li className="flex flex-col w-1/2 text-justify font-segoe mr-10 ">
+            <li className="flex flex-col w-1/2 text-justify font-segoe mr-10 items-center">
                 <p className='mt-24 text-sky-700 text-xl'>
                             I am a recent graduate from the University of Michigan, where I majored in Data Science Engineering 
                             and minored in Mathematics. My development experience includes Web Systems, Robotics, Machine Learning, 
                             Statistical Analysis, and Computer Security. I have a strong understanding of Data Structures and Algorithms and have mainly tailored my development
                             to Object Oriented Programming. 
                 </p>
-                <p className='text-sky-700 text-xl'>
+                <p className='text-sky-700 text-xl mb-10 font-segoe'>
 
                 My mathematical training focused mainly on Calculus, Linear Algebra, 
                             Probability Theory, and Financial Engineering. I am primarily interested in working as an Applied Machine Learning Engineer or Software Engineer.
                 </p>
-                <a href="/NicolasSanchezNoguera_CV.pdf"  className="bg-sky-500 text-white rounded py-2 px-3  opacity-90 mx-auto mt-10"   download="NicolasSanchezNoguera_CV">Download Resume</a>
+                <ResumeDownload label={'Download Resume'} file={"/NicolasSanchezNoguera_CV.pdf"}  className='items-center'/>
             </li >
 
         </ul>

@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +16,10 @@
   }
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,3 +29,93 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px; /* This gives the oval shape */
+    background-color: #075985; /* You can choose a different color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline for anchor tags */
+    border: none; /* Remove default button borders */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust as needed */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transition for the transform and background-color */
+    outline: none; /* Remove default focus outline */
+    margin-right: 24px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .social-button:hover {
+    transform: scale(1.1); /* Scale button size when hovered */
+    background-color: #38bdf8; /* A slightly lighter blue for hover. Adjust as you prefer. */
+  }
+  
+  .social-button:focus {
+    box-shadow: 0 0 0 3px rgba(52,152,219,0.4); /* Optional: Add a focus style */
+  }
+
+  .about-project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px; /* This gives the oval shape */
+    background-color: #075985; /* You can choose a different color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline for anchor tags */
+    border: none; /* Remove default button borders */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust as needed */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transition for the transform and background-color */
+    outline: none; /* Remove default focus outline */
+    margin: 0 auto;
+    
+  }
+  
+  .about-project-button:hover {
+    transform: scale(1.1); /* Scale button size when hovered */
+    background-color: #38bdf8; /* A slightly lighter blue for hover. Adjust as you prefer. */
+  }
+  
+  .about-project-button:focus {
+    box-shadow: 0 0 0 3px rgba(52,152,219,0.4); /* Optional: Add a focus style */
+  }
+  
+  .items-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;  /* Make the navbar stick to the top */
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #075985;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .navbar a.left {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: #075985;
+    color: white;
+    border-radius: 25px; 
+    transition: transform 0.4s ease, background-color 0.3s ease; 
+    transform: scale(1.05); 
+  }
+  
+  section {
+    padding: 60px;  /* Some padding to ensure content isn't hidden under the navbar */
+    height: 500px;  /* Just for demonstration; adjust as needed */
+  }

@@ -14,7 +14,13 @@ import AboutMe from './aboutMe';
 export default function Home() {
   return (
     
-      <div  className='bg-white h-full'>
+      <div  className=''>
+        <div class="navbar">
+            <a href="#contact">Contact</a>
+            <a href="#about me">About Me</a>
+            <a href="#projects">Personal Projects</a>
+            <a href="#top" className='left'>Top </a>
+        </div>
         <Head>
             <title>
                 Nico Portfolio
@@ -25,20 +31,26 @@ export default function Home() {
        
         
         <div>
+            <div id='top'>
             <PersonalInfo />
-                
-                <div >
-                    
+
+            </div>
+             
+                <div id='projects' >
+
                 <PersonalProject />
+                </div>
+                <div id='about me' className=''>
+
                 <AboutMe />
+                </div>
                
-                </div>
-                <div>
+                <div id='contact' >
+
                 <LanguagesIcons />
-
+               <ContactInfo />
                 </div>
 
-               <ContactInfo />
        
             </div>
            
