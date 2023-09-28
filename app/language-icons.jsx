@@ -9,13 +9,13 @@ const LanguagesIcons = () => {
     return(
         <>
         <ul className="flex justify-between">
-            <li  className="flex flex-col justify-center items-start w-1/2">
-            <h3 className='font-segoe-medium text-4xl text-blue-800  mx-auto mt-20'>
+            <li  className="flex flex-col w-1/2 items-end pr-20">
+            <h3 className='font-segoe text-4xl text-slate-800 mt-20'>
                 Languages
             </h3>
 
             </li>
-            <li className="flex flex-col justify-center w-1/2 items-end mt-20">
+            <li className="flex flex-col w-1/2 items-start mt-20 pr-20">
                 <ul className='flex justify-between mx-auto'>
                     <li className=' text-center'>
                         <VscTerminalBash className='text-4xl' />
@@ -44,13 +44,13 @@ const LanguagesIcons = () => {
         </ul>
         
         <ul className="flex justify-between">
-            <li  className="flex flex-col justify-center items-start w-1/2">
-            <h3 className='font-segoe-medium text-4xl text-blue-800  mx-auto mt-20'>
+            <li  className="flex flex-col items-end w-1/2 pr-20">
+            <h3 className='font-segoe text-4xl text-slate-800 mt-20'>
                 Technologies + Platforms
             </h3>
 
             </li>
-            <li className="flex flex-col justify-center w-1/2 items-end mt-20">
+            <li className="flex flex-col w-1/2 items-start mt-20 pr-20">
                 <ul className='flex justify-between mx-auto'>
                  <li className=' text-center'>
                         <FaAws className='text-4xl' />
