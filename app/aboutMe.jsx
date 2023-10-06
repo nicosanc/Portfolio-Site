@@ -29,7 +29,7 @@ const AboutMe = () => {
                     
                 </li>
                 <li className="flex flex-col items-center w-1/2 p-8">
-                    <SocialButton label={'Down A Dream - Bill Gurley'} to={"https://www.youtube.com/watch?v=xmYekD6-PZ8"} className="about-project-button "/>
+                    <SocialButton label={'Runnin Down A Dream - Bill Gurley'} to={"https://www.youtube.com/watch?v=xmYekD6-PZ8"} className="about-project-button "/>
                 </li>
             </ul>
         </div>
