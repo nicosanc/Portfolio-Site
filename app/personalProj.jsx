@@ -8,10 +8,14 @@ const PersonalProject = () => {
             <ul className="flex justify-between">
                 <li className="flex flex-col w-1/2 px-24">
                 <p className='text-sky-800 text-xl font-segoe text-justify '>
-                    I developed an multi-class image classifier using a PyTorch 2-D Convolutional Neural Network. CNNs are especially effective at recognizing features in images by breaking them down
-                    into multiple layers, where they&apos;re analyzed at the pixel level. I plan on expanding this project by training it with new datasets containing similar classes to improve the model&apos;s generalization, and 
-                    eventually developing an API where my model&apos;s parameters can be fetched to recreate it. 
-                    </p>
+                    With the growth of technology in climate and environmental sciences, the need for innovative Machine Learning solutions for remotely sensed imaging has become paramount. I began exploring the world of
+                    satellite imaging on <a href="https://developers.planet.com/planetschool/">Planet School</a> and decided to fuse my experience with Convolutional Neural Networks for image classification with this 
+                    field. I designed a shallow CNN using PyTorch to explore classification for Land Use and Land Cover using the EuroSAT dataset, which was monumental when it released. The dataset was the first of its kind,
+                    offering 27000 images in both RGB and Multi-Band Tiff format. This offers enough training and evaluation material to effectively train a model to generalize on this type of environmental imaging. This project took a few weeks 
+                    to ensure an in depth exploration on not only working with this data format, but also working with more advanced techniques in computer vision. I decided to write a comprehensive report to document my journey learning about
+                    Land Use and Land Cover Classification and to showcase my understanding of relevant machine learning (specifically Computer Vision) techniques and python tools. The codebase, Google Colab Notebook, and report can be found
+                    on my Github link below. 
+                </p>
                                  
                 </li>
                 <li className="flex flex-col w-1/2 px-24">
@@ -24,7 +28,7 @@ const PersonalProject = () => {
             </ul>
             <ul className="flex justify-between">
                 <li className="flex flex-col w-1/2 p-8 items-center">
-                    <SocialButton label={'Github PyTorch Repository'} to={'https://github.com/nicosanc/PyTorch-Img-Classifier.git'} className='about-project-button' />    
+                    <SocialButton label={'EuroSAT Exploration and Classification Repository'} to={'https://github.com/nicosanc/PyTorch-Img-Classifier.git'} className='about-project-button' />    
                 </li>
                 <li className="flex flex-col w-1/2 p-8 items-center">
                     <SocialButton label={'Github Simple_Notifs Repository'} to={'https://github.com/nicosanc/simple_notifs.git'} className='about-project-button'  />

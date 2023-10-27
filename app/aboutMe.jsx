@@ -19,7 +19,8 @@ const AboutMe = () => {
                     <p className= 'text-justify text-sky-800 text-xl font-segoe'>
                     This translated into my professional life, which is why I have committed myself to deeply learn the topics relevant to the career I want to pursue. Cal Newton, an author and Computer Science professor at
                         Georgetown University, has a great Google Talk called &quot;So Good They Can&apos;t Ignore You&quot; that emphasizes this idea of committing yourself to crafting and mastering a unique and valuable skill. In my case, the two unique and valuable skills I am actively sharpening are my mathematics (specifically calculus,
-                        linear algebra, and probability & statistics) and my software development skills. My professional goal is to be so knowledgable on these topics and to build such a substantial repetoir of experience, that I can create a career for myself that I can truly feel passionate about. 
+                        linear algebra, and probability & statistics) and my development skills. I am passionate about learning about Artificial Intelligence and Machine Learning not only because of the boundless opportunities available for innovation,
+                        but also because I've noticed many overlaps with my own personal journey of learning about myself. My professional goal is to be so knowledgable on these topics and to build such a substantial repetoir of experience, that I can create a career for myself that I can truly feel passionate about. 
                     </p>
                 </li>
             </ul>

@@ -27,9 +27,11 @@ const PersonalInfo = () => {
                 <p className='text-sky-700 text-xl mb-10 font-segoe'>
 
                 My mathematical training focused mainly on Calculus, Linear Algebra, 
-                            Probability Theory, and Financial Engineering. I am primarily interested in working as an Applied Machine Learning Engineer or Software Engineer.
+                            Probability Theory, and Financial Engineering. I am primarily interested in working as an Applied Machine Learning Engineer or Data Scientist. I am open to work opportunities
+                            in Software Engineering, as well. 
+
                 </p>
-                <ResumeDownload label={'Download Resume'} file={"/NicolasSanchezNoguera_CV.pdf"}  className='items-center'/>
+                <ResumeDownload label={'Download Resume'} file={"/NicolasSanchezNoguera_ML.pdf"}  className='items-center'/>
             </li >
 
         </ul>
