@@ -9,7 +9,7 @@ const PersonalProject = () => {
                 <li className="flex flex-col w-1/2 px-24">
                 <p className='text-sky-800 text-xl font-segoe text-justify '>
                     With the growth of technology in climate and environmental sciences, the need for innovative Machine Learning solutions for remotely sensed imaging has become paramount. I began exploring the world of
-                    satellite imaging on <a href="https://developers.planet.com/planetschool/">Planet School</a> and decided to fuse my experience with Convolutional Neural Networks for image classification with this 
+                    satellite imaging on <a href="https://developers.planet.com/planetschool/" className="underline" target="_blank">Planet School</a> and decided to fuse my experience with Convolutional Neural Networks for image classification with this 
                     field. I designed a shallow CNN using PyTorch to explore classification for Land Use and Land Cover using the EuroSAT dataset, which was monumental when it released. The dataset was the first of its kind,
                     offering 27000 images in both RGB and Multi-Band Tiff format. This offers enough training and evaluation material to effectively train a model to generalize on this type of environmental imaging. This project took a few weeks 
                     to ensure an in depth exploration on not only working with this data format, but also working with more advanced techniques in computer vision. I decided to write a comprehensive report to document my journey learning about

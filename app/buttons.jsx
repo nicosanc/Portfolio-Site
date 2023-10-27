@@ -27,7 +27,7 @@ export function CallButton({label, phoneNumber}) {
 
 export function ResumeDownload({label, file}) {
     return(
-        <a href={"{download:${file}"} className="about-project-button">
+        <a href={file} download className="about-project-button">
             {label}
         </a>
     )
