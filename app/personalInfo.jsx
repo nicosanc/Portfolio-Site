@@ -21,14 +21,12 @@ const PersonalInfo = () => {
                 <p className='mt-24 text-sky-700 text-xl'>
                             I am a recent graduate from the University of Michigan, where I majored in Data Science Engineering 
                             and minored in Mathematics. My development experience includes Web Systems, Robotics, Machine Learning, 
-                            Statistical Analysis, and Computer Security. I have a strong understanding of Data Structures and Algorithms and have mainly tailored my development
-                            to Object Oriented Programming. 
+                            Statistical Analysis, and Computer Security. I have a strong understanding of Data Structures and Algorithms.
                 </p>
                 <p className='text-sky-700 text-xl mb-10 font-segoe'>
 
                 My mathematical training focused mainly on Calculus, Linear Algebra, 
-                            Probability Theory, and Financial Engineering. I am primarily interested in working as an Applied Machine Learning Engineer or Data Scientist. I am open to work opportunities
-                            in Software Engineering, as well.
+                            Probability Theory, and Financial Engineering.
 
                 </p>
                 <ResumeDownload label={'Download Resume'} file="/NicolasSanchezNoguera_ML.pdf"  className='items-center'/>
