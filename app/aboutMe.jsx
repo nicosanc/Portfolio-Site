@@ -17,7 +17,8 @@ const AboutMe = () => {
                 </li>
                 <li className="flex flex-col w-1/2 px-24 items-end">
                     <p className= 'text-justify text-sky-800 text-xl font-segoe'>
-                    This translated into my professional life, which is why I have committed myself to deeply learn the topics relevant to the career I want to pursue. Author Cal Newport has a great Google Talk called &quot;So Good They Can&apos;t Ignore You&quot; that emphasizes this idea of committing yourself to crafting a unique and valuable skill. In my case, I am actively sharpening my technical ability to solve complex problems using software and data. 
+                    This translated into my professional life, which is why I have committed myself to deeply learn the topics relevant to the career I want to pursue. Author Cal Newport has a great Google Talk called &quot;So Good They Can&apos;t Ignore You&quot; that emphasizes this idea of committing yourself to crafting a unique and valuable skill. 
+                        Bill Gurley&apos;s talk Runnin Down a Dream reiterates this concept. In my case, I am actively sharpening my technical ability to solve complex problems using software and data. 
                         I am passionate about Artificial Intelligence and Machine Learning. 
                     </p>
                 </li>
