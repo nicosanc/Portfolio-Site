@@ -13,7 +13,7 @@ const PersonalInfo = () => {
                         </p>
 
                         <p className=' pb-10 text-2xl text-slate-600 text-center font-segoe mx-auto'>
-                            CS and Math Enthusiast
+                            Tech and Math Enthusiast
                         </p>
                             <Image src= {profilePic} alt='my Linked in profile pic' width = '300' height="300" className='rounded-full mx-auto '/>
             </li >
