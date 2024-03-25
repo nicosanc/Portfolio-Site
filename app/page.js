@@ -14,7 +14,7 @@ import AboutMe from './aboutMe';
 export default function Home() {
   return (
     
-      <div  className='bg-gradient-to-b from-gray-200 to-gray-300 min-h-screen'>
+      <div  className='bg-gradient-to-b from-white to-gray-100 min-h-screen'>
         <div class="navbar">
             <a href="#contact">Contact</a>
             <a href="#about me">About Me</a>
