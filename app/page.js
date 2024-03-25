@@ -29,33 +29,25 @@ export default function Home() {
             <link rel='icon' href='/favicon.ico' sizes='any'/>
         </Head>
        
-        
+    <body className='bg-gradient-to-b from-gray-200 to-gray-300 min-h-screen'>
         <div>
             <div id='top'>
-            <PersonalInfo />
-
+              <PersonalInfo />
             </div>
-             
                 <div id='projects' >
-
-                <PersonalProject />
+                    <PersonalProject />
                 </div>
                 <div id='about me' className=''>
-
-                <AboutMe />
+                    <AboutMe />
                 </div>
                
                 <div id='contact' >
-
-                <LanguagesIcons />
-               <ContactInfo />
+                    <LanguagesIcons />
+                    <ContactInfo />
                 </div>
-
-       
-            </div>
-           
+            </div>         
       </div>
-    
+    </body>
   )
 }
 
