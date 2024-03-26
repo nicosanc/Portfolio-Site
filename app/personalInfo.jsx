@@ -29,7 +29,7 @@ const PersonalInfo = () => {
                             Probability Theory, and Financial Engineering.
 
                 </p>
-                <ResumeDownload label={'Download Resume'} file="/NicolasSanchezNoguera_ML.pdf"  className='items-center'/>
+                <ResumeDownload label={'Download Resume'} file="/NicolasSanchezNoguera_DE.pdf"  className='items-center'/>
             </li >
 
         </ul>
