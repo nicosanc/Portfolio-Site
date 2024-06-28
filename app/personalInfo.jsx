@@ -19,9 +19,10 @@ const PersonalInfo = () => {
             </li >
             <li className="flex flex-col w-1/2 text-justify font-segoe mr-10 items-center">
                 <p className='mt-24 text-sky-700 text-xl'>
-                            I am a recent graduate from the University of Michigan, where I majored in Data Science Engineering 
-                            and minored in Mathematics. My development experience includes Web Systems, Robotics, Machine Learning, 
-                            Statistical Analysis, and Computer Security. 
+                            I am a graduate from the University of Michigan's College of Engineering, where I majored in Data Science and minored in Mathematics. My academic focus was on computational programing, 
+                            specifically Machine Learning and statistical programming. My range extends to Web Systems, Computer Security, and even Robotics. I'm highly proficient in Python given my extensive experience with libraries and frameworks such as Gymnasium, Numpy, Pandas, Sci-Kit Learn, and PyTorch.
+                            I am also well versed in C++, R, SQL, and Cairo. I regularly develop my projects in Linux environments. In recent months, I've gained extensive experience and knowledge in blockchain development, specializing in 
+                            Cairo Smart Contract development on Starknet 
                 </p>
                 <p className='text-sky-700 text-xl mb-10 font-segoe'>
 
