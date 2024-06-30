@@ -29,7 +29,7 @@ export default function Home() {
             <link rel='icon' href='/favicon.ico' sizes='any'/>
         </Head>
        
-        <div>
+        <div className="">
             <div id='top'>
               <PersonalInfo />
             </div>

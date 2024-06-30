@@ -19,7 +19,7 @@ const AboutMe = () => {
                     <p className= 'text-justify text-sky-800 text-xl font-segoe'>
                     This translated into my professional life, which is why I have committed myself to deeply learn the topics relevant to the career I want to pursue. Author Cal Newport has a great Google Talk called &quot;So Good They Can&apos;t Ignore You&quot; that emphasizes this idea of committing yourself to crafting a unique and valuable skill. 
                         Bill Gurley&apos;s talk Runnin Down a Dream reiterates this concept. In my case, I am actively sharpening my technical ability to solve complex problems using software and data. 
-                        I am passionate about Artificial Intelligence and Machine Learning. 
+                        I am most passionate about pursuing a career in blockchain, with the aim of becoming a significant figure in the space. 
                     </p>
                 </li>
             </ul>
