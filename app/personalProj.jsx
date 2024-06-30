@@ -19,11 +19,11 @@ const PersonalProject = () => {
                 </li>
                 <li className="flex flex-col w-1/2 px-24">
                     <p className='text-sky-800 text-xl font-segoe text-justify '>
-                        I competed in Starknet's StarkHack hackathon, which went on from June 13 - June 26, 2024. The hackathon tasked those competing to create
-                        an MVP for a dApp built on Starknet, using Starknet's official language Cairo. My partner and I worked on a decentralized event management system, where we used 
+                        I competed in Starknet&apos;s StarkHack hackathon, which went on from June 13 - June 26, 2024. The hackathon tasked those competing to create
+                        an MVP for a dApp built on Starknet, using Starknet&apos;s official language Cairo. My partner and I worked on a decentralized event management system, where we used 
                         Cairo smart contracts as our backend to create and manage events published by users. Our intention was to promote a stake-to-attend principle on our site to ensure 
                         registered users were more incentivized to attend an event. If they showed up, they would have their stake returned in full. Else, the stake was kept and split between the site
-                        and the event organizer. My partner and I were complete beginners building Starknet projects so we were able to complete a basic implementation that handled the creation of events
+                        and the event organizer. My partner and I were complete beginners building Starknet projects so we were able to build a basic implementation that handled the creation of events
                         by the hackathon deadline. We faced major difficulties connecting our front end template to our smart contracts, and even more difficulty sending event data to our Pinata file system. 
                         We are currently still working on the project, aiming to expand the backend to a stake-to-attend focused system. We are also chipping away at the front end trying to maximize user
                         retention on the site. 
