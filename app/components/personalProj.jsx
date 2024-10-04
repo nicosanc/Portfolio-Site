@@ -4,10 +4,10 @@ import { SocialButton } from "./buttons";
 const PersonalProject = () => {
     return(
         <>
-            <h1 className='text-4xl text-slate-800 font-segoe flex justify-center mt-40 mb-10'> Personal Projects </h1>
+            <h1 className='text-4xl text-teal-300 flex justify-center mt-20 mb-10'> Personal Projects </h1>
             <ul className="flex justify-between">
                 <li className="flex flex-col w-1/2 px-24">
-                    <p className='text-sky-800 text-xl font-segoe text-justify '>
+                    <p className='text-teal-200 text-xl text-justify '>
                         With the growth of technology in climate and environmental sciences, the need for innovative Machine Learning solutions for remotely sensed imaging has become paramount. I began exploring the world of
                         satellite imaging on <a href="https://developers.planet.com/planetschool/" className="underline" target="_blank">Planet School</a> and decided to fuse my experience with Convolutional Neural Networks for image classification with this 
                         field. I designed a shallow CNN using PyTorch to explore classification for Land Use and Land Cover using the EuroSAT dataset, which was monumental when it released. The dataset was the first of its kind,
@@ -18,7 +18,7 @@ const PersonalProject = () => {
                     </p>   
                 </li>
                 <li className="flex flex-col w-1/2 px-24">
-                    <p className='text-sky-800 text-xl font-segoe text-justify '>
+                    <p className='text-teal-200 text-xl text-justify '>
                         I competed in Starknet&apos;s StarkHack hackathon, which went on from June 13 - June 26, 2024. The hackathon tasked those competing to create
                         an MVP for a dApp built on Starknet, using Starknet&apos;s official language Cairo. My partner and I worked on a decentralized event management system, where we used 
                         Cairo smart contracts as our backend to create and manage events published by users. Our intention was to promote a stake-to-attend principle on our site to ensure 
@@ -30,7 +30,7 @@ const PersonalProject = () => {
                     </p>
                 </li>
             </ul>
-            <ul className="flex justify-between">
+            <ul className="flex justify-between mb-20">
                 <li className="flex flex-col w-1/2 p-8 items-center">
                     <SocialButton label={'EuroSAT Exploration and Classification Repository'} to={'https://github.com/nicosanc/PyTorch-Img-Classifier.git'} className='about-project-button' />    
                 </li>

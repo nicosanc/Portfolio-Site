@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 :root {
     --foreground-rgb: 0, 0, 0;
@@ -16,25 +18,48 @@
   }
 }
 
+@keyframes continuousSlide {
+  0% {
+    transform: translateX(100%); /* Start just outside the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End just outside the left */
+  }
+}
+
+.slide-window {
+  width: 300px; /* The small window width */
+  overflow: hidden; /* Hide content outside this window */
+  margin: 0 auto; /* Center the window */
+}
+
+.continuous-slide {
+  display: flex;
+  animation: continuousSlide 10s linear infinite; /* Adjust speed as needed */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+
+
 html {
     scroll-behavior: smooth;
   }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  font-family: 'Roboto', sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      #334155
     )
-    rgb(var(--background-start-rgb));
+    #334155;
 }
 
 .social-button {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 25px; /* This gives the oval shape */
-    background-color: #075985; /* You can choose a different color */
+    background-color: #64748b; /* You can choose a different color */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline for anchor tags */
     border: none; /* Remove default button borders */
@@ -43,12 +68,12 @@ body {
     transition: transform 0.3s ease, background-color 0.3s ease; /* Transition for the transform and background-color */
     outline: none; /* Remove default focus outline */
     margin-right: 24px;
-    font-family: 'Segoe UI', sans-serif;
   }
   
   .social-button:hover {
     transform: scale(1.1); /* Scale button size when hovered */
-    background-color: #38bdf8; /* A slightly lighter blue for hover. Adjust as you prefer. */
+    background-color: #99f6e4; /* A slightly lighter blue for hover. Adjust as you prefer. */
+    color:black
   }
   
   .social-button:focus {
@@ -86,20 +111,24 @@ body {
   }
 
   .navbar {
-    background-color: white;
     overflow: hidden;
     position: fixed;  /* Make the navbar stick to the top */
     width: 100%;
+    z-index: 50;
+    
+    
   }
   
   .navbar a {
     float: right;
     display: block;
-    color: #075985;
+    color:#ccfbf1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Segoe UI', sans-serif;
+    background-color: #64748b;
+    padding: 10px 20px;
+    border-radius: 25px;
   }
 
   .navbar a.left {
@@ -108,8 +137,8 @@ body {
   }
   
   .navbar a:hover {
-    background-color: #075985;
-    color: white;
+    background-color: #99f6e4;
+    color: black;
     border-radius: 25px; 
     transition: transform 0.4s ease, background-color 0.3s ease; 
     transform: scale(1.05); 
