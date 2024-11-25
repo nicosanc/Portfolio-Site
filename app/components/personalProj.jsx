@@ -19,14 +19,13 @@ const PersonalProject = () => {
                 </li>
                 <li className="flex flex-col w-1/2 px-24">
                     <p className='text-teal-200 text-xl text-justify '>
-                        I competed in Starknet&apos;s StarkHack hackathon, which went on from June 13 - June 26, 2024. The hackathon tasked those competing to create
-                        an MVP for a dApp built on Starknet, using Starknet&apos;s official language Cairo. My partner and I worked on a decentralized event management system, where we used 
-                        Cairo smart contracts as our backend to create and manage events published by users. Our intention was to promote a stake-to-attend principle on our site to ensure 
-                        registered users were more incentivized to attend an event. If they showed up, they would have their stake returned in full. Else, the stake was kept and split between the site
-                        and the event organizer. My partner and I were complete beginners building Starknet projects so we were able to build a basic implementation that handled the creation of events
-                        by the hackathon deadline. We faced major difficulties connecting our front end template to our smart contracts, and even more difficulty sending event data to our Pinata file system. 
-                        We are currently still working on the project, aiming to expand the backend to a stake-to-attend focused system. We are also chipping away at the front end trying to maximize user
-                        retention on the site. 
+                    I competed in Starknet's StarkHack hackathon from June 13 to June 26, 2024. 
+                    The challenge was to create an MVP dApp on Starknet within 10 days, using its official language, Cairo. 
+                    My partner and I developed a decentralized event management system, with Cairo smart contracts as the backend to create and manage user-generated events. 
+                    Our concept focused on a stake-to-attend model, incentivizing registered users to attend by returning their stake if they showed up, and retaining the stake for no-shows. 
+                    Despite facing difficulties—particularly in connecting the frontend to the smart contracts—we successfully implemented two smart contracts.
+                    One smart contract managed the event registry and the other handled individual event creation.
+                  
                     </p>
                 </li>
             </ul>
