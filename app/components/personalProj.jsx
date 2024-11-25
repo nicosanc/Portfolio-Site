@@ -19,7 +19,7 @@ const PersonalProject = () => {
                 </li>
                 <li className="flex flex-col w-1/2 px-24">
                     <p className='text-teal-200 text-xl text-justify '>
-                    I competed in Starknet's StarkHack hackathon from June 13 to June 26, 2024. 
+                    I competed in Starknet&apos;s StarkHack hackathon from June 13 to June 26, 2024. 
                     The challenge was to create an MVP dApp on Starknet within 10 days, using its official language, Cairo. 
                     My partner and I developed a decentralized event management system, with Cairo smart contracts as the backend to create and manage user-generated events. 
                     Our concept focused on a stake-to-attend model, incentivizing registered users to attend by returning their stake if they showed up, and retaining the stake for no-shows. 
